@@ -20,6 +20,7 @@ The system runs entirely locally, requiring no external API calls.
 ## Documentation
 
 Full technical documentation, architecture details, and evaluation methodology are available in Notion:
+
 [D-RAGon System Notion](https://www.notion.so/D-RAGon-System-2f4ff95a7099801f87e9f9029e46f7e7)
 
 ## Key Features
