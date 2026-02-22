@@ -24,9 +24,6 @@ requirements-lock.txt
 
 more pdfs to drag and drop in data for testing/
 
-.gradio/
-Code/.gradio/
-
 .vscode/
 .idea/
 
