@@ -1,3 +1,3 @@
-# RAG-Based-PDF-QA-System
+# D-RAGon System
 
-Link for Notion Notes: https://www.notion.so/RAG-Project-Design-Notes-2f4ff95a7099801f87e9f9029e46f7e7?source=copy_link
+Notion Link : [D-RAGon System](https://www.notion.so/D-RAGon-System-2f4ff95a7099801f87e9f9029e46f7e7?source=copy_link)
