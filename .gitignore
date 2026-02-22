@@ -1,0 +1,34 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+
+.ipynb_checkpoints/
+
+venv/
+.env/
+dragon/
+.conda/
+
+.DS_Store
+Thumbs.db
+
+*.log
+
+Chroma/
+Mats/
+SIC Documentation/
+
+requirements-lock.txt
+
+more pdfs to drag and drop in data for testing/
+
+.vscode/
+.idea/
+
+cache/
+models/
+
+*.tmp
+*.bak

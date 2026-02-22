@@ -1,0 +1,152 @@
+[
+	{
+		"question": "How many Hell Weeks did David Goggins complete?",
+		"expected": "He completed three Hell Weeks.",
+		"gold_pages": ["Can_t-Hurt-Me-David-Goggins.pdf:153", "Can_t-Hurt-Me-David-Goggins.pdf:121"]
+	},
+	{
+		"question": "What was David Goggins' maximum recorded weight?",
+		"expected": "297 pounds.",
+		"gold_pages": ["Can_t-Hurt-Me-David-Goggins.pdf:73", "Can_t-Hurt-Me-David-Goggins.pdf:66"]
+	},
+	{
+		"question": "Before losing weight and training, which military unit was Goggins trying to join?",
+		"expected": "The Navy SEALs.",
+		"gold_pages": ["Can_t-Hurt-Me-David-Goggins.pdf:73"]
+	},
+	{
+		"question": "After serving as a SEAL, which elite Army unit did Goggins consider attempting to join?",
+		"expected": "Delta Force.",
+		"gold_pages": ["Can_t-Hurt-Me-David-Goggins.pdf:244"]
+	},
+	{
+		"question": "How many times did Goggins fail his pull-up record attempt before succeeding?",
+		"expected": "He failed twice.",
+		"gold_pages": ["Can_t-Hurt-Me-David-Goggins.pdf:270"]
+	},
+	{
+		"question": "What was the previous pull-up world record before Goggins broke it?",
+		"expected": "4,000 pull-ups.",
+		"gold_pages": ["Can_t-Hurt-Me-David-Goggins.pdf:255"]
+	},
+	{
+		"question": "What pull-up record did Goggins ultimately set?",
+		"expected": "4,030 pull-ups.",
+		"gold_pages": ["Can_t-Hurt-Me-David-Goggins.pdf:273"]
+	},
+	{
+		"question": "Which two ultramarathon races did Goggins run before attempting Badwater 135?",
+		"expected": "The San Diego One Day race and the Hurt 100.",
+		"gold_pages": ["Can_t-Hurt-Me-David-Goggins.pdf:146", "Can_t-Hurt-Me-David-Goggins.pdf:162"]
+	},
+	{
+		"question": "At what mile during the San Diego One Day race did Goggins loose bowel control",
+		"expected": "At mile 70.",
+		"gold_pages": ["Can_t-Hurt-Me-David-Goggins.pdf:140"]
+	},
+	{
+		"question": "What job did Goggins hold before pursuing the Navy SEALs?",
+		"expected": "He worked as an exterminator.",
+		"gold_pages": ["Can_t-Hurt-Me-David-Goggins.pdf:66"]
+	},
+	{
+		"question": "What condition did Goggins suffer from as a child that affected his learning?",
+		"expected": "He had a learning disability.",
+		"gold_pages": ["Can_t-Hurt-Me-David-Goggins.pdf:30"]
+	},
+	{
+		"question": "What nickname did Goggins give to the accountability mirror he used for self-discipline?",
+		"expected": "The Accountability Mirror.",
+		"gold_pages": ["Can_t-Hurt-Me-David-Goggins.pdf:52"]
+	},
+	{
+		"question": "What medical condition did doctors discover in Goggins’ heart?",
+		"expected": "A hole in his heart.",
+		"gold_pages": ["Can_t-Hurt-Me-David-Goggins.pdf:212"]
+	},
+	{
+		"question": "What major ultramarathon did Goggins finish despite severe kidney failure and dehydration?",
+		"expected": "The Badwater 135 ultramarathon.",
+		"gold_pages": ["Can_t-Hurt-Me-David-Goggins.pdf:151"] 
+	},
+	{
+		"question": "What phrase does Goggins use to describe the mental callous formed through suffering?",
+		"expected": "Callousing the mind.",
+		"gold_pages": ["Can_t-Hurt-Me-David-Goggins.pdf:114"]
+	},
+	{
+		"question": "What is a Region Proposal Network (RPN)?",
+		"expected": "A fully convolutional network that shares features with the detector and predicts objectness scores and bounding box regressions to generate region proposals.",
+		"gold_pages": ["Faster-RCNN-Paper.pdf:3","Faster-RCNN-Paper.pdf:1"]
+	},
+	{
+		"question": "What dataset was used in Faster R-CNN experiments?",
+		"expected": "PASCAL VOC.",
+		"gold_pages": ["Faster-RCNN-Paper.pdf:4"]
+	},
+	{
+		"question": "What task does Faster R-CNN perform?",
+		"expected": "Object detection.",
+		"gold_pages": ["Faster-RCNN-Paper.pdf:0"]
+	},
+	{
+		"question": "What does Faster R-CNN improve over earlier R-CNN variants?",
+		"expected": "It replaces external region proposal methods with a learned Region Proposal Network to enable end-to-end training.",
+		"gold_pages": ["Faster-RCNN-Paper.pdf:0","Faster-RCNN-Paper.pdf:4"]
+	},
+	{
+		"question": "What is the role of anchors in Faster R-CNN?",
+		"expected": "They are predefined boxes of different scales and aspect ratios used to generate candidate object regions.",
+		"gold_pages": ["Faster-RCNN-Paper.pdf:3"]
+	},
+	{
+		"question": "What two outputs does the RPN predict for each anchor?",
+		"expected": "Bounding box regression offsets and objectness scores.",
+		"gold_pages": ["Faster-RCNN-Paper.pdf:3"]
+	},
+	{
+		"question": "What backbone networks are commonly used in Faster R-CNN?",
+		"expected": "Convolutional neural networks such as ZF, VGG, or ResNet.",
+		"gold_pages": ["Faster-RCNN-Paper.pdf:0","Faster-RCNN-Paper.pdf:4"]
+	},
+	{
+		"question": "What is ROI pooling used for?",
+		"expected": "To convert variable-sized region proposals into fixed-size feature maps for classification and regression.",
+		"gold_pages": ["Faster-RCNN-Paper.pdf:1"]
+	},
+	{
+		"question": "What loss components are used to train Faster R-CNN?",
+		"expected": "A classification loss and a bounding box regression loss.",
+		"gold_pages": ["Faster-RCNN-Paper.pdf:3"]
+	},
+	{
+		"question": "What does non-maximum suppression do in Faster R-CNN?",
+		"expected": "It removes highly overlapping bounding boxes, keeping only the highest scoring detections.",
+		"gold_pages": ["Faster-RCNN-Paper.pdf:4"]
+	},
+	{
+		"question": "What is the purpose of sharing convolutional features between the RPN and detection network?",
+		"expected": "To reduce computation and allow joint optimization of proposal generation and detection.",
+		"gold_pages": ["Faster-RCNN-Paper.pdf:1", "Faster-RCNN-Paper.pdf:4"]
+	},
+	{
+		"question": "How are positive anchors defined during training?",
+		"expected": "Anchors that have high intersection-over-union overlap with a ground-truth bounding box.",
+		"gold_pages": ["Faster-RCNN-Paper.pdf:2"]
+	},
+	{
+		"question": "What is the main output of Faster R-CNN at inference time?",
+		"expected": "Detected object class labels and refined bounding boxes.",
+		"gold_pages": ["Faster-RCNN-Paper.pdf:0", "Faster-RCNN-Paper.pdf:1"]
+	},
+	{
+		"question": "How does the RPN generate region proposals?",
+		"expected": "By sliding a small network over shared convolutional feature maps and predicting objectness scores and bounding box regressions for anchors at each location.",
+		"gold_pages": ["Faster-RCNN-Paper.pdf:1", "Faster-RCNN-Paper.pdf:2"]
+	},
+	{
+		"question": "Why is region proposal generation considered nearly cost-free in Faster R-CNN?",
+		"expected": "Because the RPN shares convolutional features with the detection network, adding only a small computational overhead.",
+		"gold_pages": ["Faster-RCNN-Paper.pdf:1", "Faster-RCNN-Paper.pdf:7"]
+	}
+]

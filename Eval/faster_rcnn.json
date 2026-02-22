@@ -1,0 +1,77 @@
+[
+    {
+        "question": "What is a Region Proposal Network (RPN)?",
+        "expected": "A fully convolutional network that shares features with the detector and predicts objectness scores and bounding box regressions to generate region proposals.",
+        "gold_pages": ["Faster-RCNN-Paper.pdf:3","Faster-RCNN-Paper.pdf:1"]
+    },
+    {
+        "question": "What dataset was used in Faster R-CNN experiments?",
+        "expected": "PASCAL VOC.",
+        "gold_pages": ["Faster-RCNN-Paper.pdf:4"]
+    },
+    {
+        "question": "What task does Faster R-CNN perform?",
+        "expected": "Object detection.",
+        "gold_pages": ["Faster-RCNN-Paper.pdf:0"]
+    },
+    {
+        "question": "What does Faster R-CNN improve over earlier R-CNN variants?",
+        "expected": "It replaces external region proposal methods with a learned Region Proposal Network to enable end-to-end training.",
+        "gold_pages": ["Faster-RCNN-Paper.pdf:0","Faster-RCNN-Paper.pdf:4"]
+    },
+    {
+        "question": "What is the role of anchors in Faster R-CNN?",
+        "expected": "They are predefined boxes of different scales and aspect ratios used to generate candidate object regions.",
+        "gold_pages": ["Faster-RCNN-Paper.pdf:3"]
+    },
+    {
+        "question": "What two outputs does the RPN predict for each anchor?",
+        "expected": "Bounding box regression offsets and objectness scores.",
+        "gold_pages": ["Faster-RCNN-Paper.pdf:3"]
+    },
+    {
+        "question": "What backbone networks are commonly used in Faster R-CNN?",
+        "expected": "Convolutional neural networks such as ZF, VGG, or ResNet.",
+        "gold_pages": ["Faster-RCNN-Paper.pdf:0","Faster-RCNN-Paper.pdf:4"]
+    },
+    {
+        "question": "What is ROI pooling used for?",
+        "expected": "To convert variable-sized region proposals into fixed-size feature maps for classification and regression.",
+        "gold_pages": ["Faster-RCNN-Paper.pdf:1"]
+    },
+    {
+        "question": "What loss components are used to train Faster R-CNN?",
+        "expected": "A classification loss and a bounding box regression loss.",
+        "gold_pages": ["Faster-RCNN-Paper.pdf:3"]
+    },
+    {
+        "question": "What does non-maximum suppression do in Faster R-CNN?",
+        "expected": "It removes highly overlapping bounding boxes, keeping only the highest scoring detections.",
+        "gold_pages": ["Faster-RCNN-Paper.pdf:4"]
+    },
+    {
+        "question": "What is the purpose of sharing convolutional features between the RPN and detection network?",
+        "expected": "To reduce computation and allow joint optimization of proposal generation and detection.",
+        "gold_pages": ["Faster-RCNN-Paper.pdf:1", "Faster-RCNN-Paper.pdf:4"]
+    },
+    {
+        "question": "How are positive anchors defined during training?",
+        "expected": "Anchors that have high intersection-over-union overlap with a ground-truth bounding box.",
+        "gold_pages": ["Faster-RCNN-Paper.pdf:2"]
+    },
+    {
+        "question": "What is the main output of Faster R-CNN at inference time?",
+        "expected": "Detected object class labels and refined bounding boxes.",
+        "gold_pages": ["Faster-RCNN-Paper.pdf:0", "Faster-RCNN-Paper.pdf:1"]
+    },
+    {
+        "question": "How does the RPN generate region proposals?",
+        "expected": "By sliding a small network over shared convolutional feature maps and predicting objectness scores and bounding box regressions for anchors at each location.",
+        "gold_pages": ["Faster-RCNN-Paper.pdf:1", "Faster-RCNN-Paper.pdf:2"]
+    },
+    {
+        "question": "Why is region proposal generation considered nearly cost-free in Faster R-CNN?",
+        "expected": "Because the RPN shares convolutional features with the detection network, adding only a small computational overhead.",
+        "gold_pages": ["Faster-RCNN-Paper.pdf:1", "Faster-RCNN-Paper.pdf:7"]
+    }
+]

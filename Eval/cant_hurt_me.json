@@ -1,0 +1,77 @@
+[
+  {
+    "question": "How many Hell Weeks did David Goggins complete?",
+    "expected": "He completed three Hell Weeks.",
+    "gold_pages": ["Can_t-Hurt-Me-David-Goggins.pdf:153", "Can_t-Hurt-Me-David-Goggins.pdf:121"]
+  },
+  {
+    "question": "What was David Goggins' maximum recorded weight?",
+    "expected": "297 pounds.",
+    "gold_pages": ["Can_t-Hurt-Me-David-Goggins.pdf:73", "Can_t-Hurt-Me-David-Goggins.pdf:66"]
+  },
+  {
+    "question": "Before losing weight and training, which military unit was Goggins trying to join?",
+    "expected": "The Navy SEALs.",
+    "gold_pages": ["Can_t-Hurt-Me-David-Goggins.pdf:73"]
+  },
+  {
+    "question": "After serving as a SEAL, which elite Army unit did Goggins consider attempting to join?",
+    "expected": "Delta Force.",
+    "gold_pages": ["Can_t-Hurt-Me-David-Goggins.pdf:244"]
+  },
+  {
+    "question": "How many times did Goggins fail his pull-up record attempt before succeeding?",
+    "expected": "He failed twice.",
+    "gold_pages": ["Can_t-Hurt-Me-David-Goggins.pdf:270"]
+  },
+  {
+    "question": "What was the previous pull-up world record before Goggins broke it?",
+    "expected": "4,000 pull-ups.",
+    "gold_pages": ["Can_t-Hurt-Me-David-Goggins.pdf:255"]
+  },
+  {
+    "question": "What pull-up record did Goggins ultimately set?",
+    "expected": "4,030 pull-ups.",
+    "gold_pages": ["Can_t-Hurt-Me-David-Goggins.pdf:273"]
+  },
+  {
+    "question": "Which two ultramarathon races did Goggins run before attempting Badwater 135?",
+    "expected": "The San Diego One Day race and the Hurt 100.",
+    "gold_pages": ["Can_t-Hurt-Me-David-Goggins.pdf:146", "Can_t-Hurt-Me-David-Goggins.pdf:162"]
+  },
+  {
+    "question": "At what mile during the San Diego One Day race did Goggins loose bowel control",
+    "expected": "At mile 70.",
+    "gold_pages": ["Can_t-Hurt-Me-David-Goggins.pdf:140"]
+  },
+  {
+    "question": "What job did Goggins hold before pursuing the Navy SEALs?",
+    "expected": "He worked as an exterminator.",
+    "gold_pages": ["Can_t-Hurt-Me-David-Goggins.pdf:66"]
+  },
+  {
+    "question": "What condition did Goggins suffer from as a child that affected his learning?",
+    "expected": "He had a learning disability.",
+    "gold_pages": ["Can_t-Hurt-Me-David-Goggins.pdf:30"]
+  },
+  {
+    "question": "What nickname did Goggins give to the accountability mirror he used for self-discipline?",
+    "expected": "The Accountability Mirror.",
+    "gold_pages": ["Can_t-Hurt-Me-David-Goggins.pdf:52"]
+  },
+  {
+    "question": "What medical condition did doctors discover in Goggins’ heart?",
+    "expected": "A hole in his heart.",
+    "gold_pages": ["Can_t-Hurt-Me-David-Goggins.pdf:212"]
+  },
+  {
+    "question": "What major ultramarathon did Goggins finish despite severe kidney failure and dehydration?",
+    "expected": "The Badwater 135 ultramarathon.",
+    "gold_pages": ["Can_t-Hurt-Me-David-Goggins.pdf:151"] 
+  },
+  {
+    "question": "What phrase does Goggins use to describe the mental callous formed through suffering?",
+    "expected": "Callousing the mind.",
+    "gold_pages": ["Can_t-Hurt-Me-David-Goggins.pdf:114"]
+  }
+]
