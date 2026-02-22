@@ -1,9 +1,12 @@
 # D-RAGon System
+
+<p align="center">
+  <img src="Mats/D-RAGonSystemDemo.gif" width="700"/>
+</p>
+
+<p align="center">
 Local Retrieval-Augmented Generation (RAG) system for answering questions over PDF documents using semantic retrieval, reranking, and a locally hosted LLM.
-
-Complete architecture, evaluation methodology, and implementation details are available here:
-
-[D-RAGon System Notion](https://www.notion.so/D-RAGon-System-2f4ff95a7099801f87e9f9029e46f7e7)
+</p>
 
 
 ## Overview
@@ -14,13 +17,10 @@ This approach improves factual accuracy and reduces hallucinations compared to s
 
 The system runs entirely locally, requiring no external API calls.
 
-## Demo
-<p align="center">
-  <img src="Mats/D-RAGonSystemDemo.gif" width="700"/>
-</p>
+## Documentation
 
-The GIF above shows the Gradio interface answering questions using retrieved context from indexed PDF documents.
-
+Full technical documentation, architecture details, and evaluation methodology are available in Notion:
+[D-RAGon System Notion](https://www.notion.so/D-RAGon-System-2f4ff95a7099801f87e9f9029e46f7e7)
 
 ## Key Features
 
