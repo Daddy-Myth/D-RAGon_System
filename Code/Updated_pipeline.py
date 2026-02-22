@@ -61,7 +61,7 @@ logging.getLogger("urllib3").setLevel(logging.WARNING)
 logging.getLogger("httpx").setLevel(logging.WARNING)
 
 # Paths and global variables
-ROOT = Path(__file__).resolve().parents[1] #Path('C:/Users/Archit/Documents/ML Projects/RAG-Based-PDF-QA-System')
+ROOT = Path(__file__).resolve().parents[1] #Path('C:/Users/Archit/Documents/ML Projects/D-RAGon_System')
 DATA_DIR = ROOT / "Data"
 CHROMA_DIR = ROOT / "Chroma"
 CHAT_HISTORY = []
