@@ -1,8 +1,10 @@
 # D-RAGon System
 Local Retrieval-Augmented Generation (RAG) system for answering questions over PDF documents using semantic retrieval, reranking, and a locally hosted LLM.
 
-Full technical documentation is available here:  
-Notion Documentation: https://www.notion.so/D-RAGon-System-2f4ff95a7099801f87e9f9029e46f7e7
+Complete architecture, evaluation methodology, and implementation details are available here:
+
+[D-RAGon System Notion](https://www.notion.so/D-RAGon-System-2f4ff95a7099801f87e9f9029e46f7e7)
+
 
 ## Overview
 
@@ -14,7 +16,7 @@ The system runs entirely locally, requiring no external API calls.
 
 ## Demo
 
-![D-RAGon Demo](Mats/UI_Demo_big.gif)
+![D-RAGon Demo](Mats/UI_Demo_comp.gif)
 
 The GIF above shows the Gradio interface answering questions using retrieved context from indexed PDF documents.
 
@@ -101,7 +103,97 @@ D-RAGon_System/
 ```
 ## How to Run the System
 
+### 1. Clone the repository
 
+```bash
+git clone https://github.com/Daddy-Myth/D-RAGon_System.git
+cd D-RAGon_System
+```
+
+
+### 2. Create and activate the conda environment
+
+```bash
+conda create -n dragon python=3.10
+conda activate dragon
+```
+
+
+### 3. Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+
+### 4. Start Ollama (LLM inference server)
+
+Run in a separate terminal:
+
+```bash
+ollama serve
+```
+
+If the model is not installed yet, run once:
+
+```bash
+ollama run llama3.1
+```
+
+
+### 5. Launch the Gradio UI
+
+```bash
+python Code/app.py
+```
+
+### 6. Open the interface
+
+Open your browser and go to:
+
+```bash
+http://localhost:7860
+```
+
+You can now:
+
+- Upload and index PDF documents
+- Ask questions using natural language
+- View grounded answers with source citations
+- Use conversational chat mode
+
+
+## Optional: CLI Usage
+
+Ingest PDFs into the vector database:
+
+```bash
+python Code/Updated_pipeline.py ingest
+```
+
+Ask a single question:
+
+```bash
+python Code/Updated_pipeline.py query --q "What was David Goggins max weight?"
+```
+
+Start conversational chat mode:
+
+```bash
+python Code/Updated_pipeline.py chat
+```
+
+Reset chat history:
+
+```bash
+python Code/Updated_pipeline.py reset-chat
+```
+
+Show database statistics:
+
+```bash
+python Code/Updated_pipeline.py info
+```
 ## Dataset
 
 Sample indexed documents include:
@@ -110,7 +202,6 @@ Sample indexed documents include:
 - Can't Hurt Me — David Goggins
 - Deep Work — Cal Newport
 
----
 
 ## Future Work
 
@@ -121,19 +212,9 @@ Sample indexed documents include:
 - Larger embedding and LLM models
 - Cloud deployment
 
----
 
 ## Author
 
-Archit Yadav  
-Lead Developer and System Architect  
+Archit Yadav
 
 Samsung Innovation Campus Capstone Project
-
----
-
-## Full Documentation
-
-Complete architecture, evaluation methodology, and implementation details are available here:
-
-https://www.notion.so/D-RAGon-System-2f4ff95a7099801f87e9f9029e46f7e7
