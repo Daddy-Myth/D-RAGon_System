@@ -15,8 +15,9 @@ This approach improves factual accuracy and reduces hallucinations compared to s
 The system runs entirely locally, requiring no external API calls.
 
 ## Demo
-
-![D-RAGon Demo](Mats/UI_Demo_comp.gif)
+<p align="center">
+  <img src="Mats/D-RAGonSystemDemo.gif" width="700"/>
+</p>
 
 The GIF above shows the Gradio interface answering questions using retrieved context from indexed PDF documents.
 
