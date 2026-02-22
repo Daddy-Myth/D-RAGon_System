@@ -14,7 +14,7 @@ The system runs entirely locally, requiring no external API calls.
 
 ## Demo
 
-![D-RAGon Demo](Mats/UI_Demo_comp.gif)
+![D-RAGon Demo](Mats/UI_Demo_big.gif)
 
 The GIF above shows the Gradio interface answering questions using retrieved context from indexed PDF documents.
 
