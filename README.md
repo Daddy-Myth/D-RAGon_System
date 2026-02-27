@@ -104,6 +104,9 @@ D-RAGon_System/
 └── .gitignore
 ```
 ## How to Run the System
+### Data Instructions  
+Due to copyright restrictions, books are not included.  
+Please download the required PDFs manually and place them in: data/
 
 ### 1. Clone the repository
 
