@@ -210,6 +210,8 @@ Sample indexed documents include:
 
 ## Future Work
 
+- Larger Document Corpus 
+- Domain Specific Knowledge Integration 
 - Hybrid retrieval (BM25 + dense embeddings)
 - Faster inference via caching
 - FastAPI deployment
